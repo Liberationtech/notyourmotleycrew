@@ -1,4 +1,5 @@
-notyourmotleycrew
-=================
+Not your Motley Crew
+====================
 
-The source code for the site notyourmotleycrew.com
+Django cource code for the site at http://www.notyourmotleycrew.com
+
