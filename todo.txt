@@ -1,0 +1,18 @@
+- Flöde/Hem
+    Bilder på folk med skyltar, i omvänd kronologisk ordning
+    
+    Image 
+      -ImageField XOR Reference to Flicker-image
+      -caption
+      -datetime added
+
+- About
+   En kort förklarande text
+
+- Contribute
+  Här kan besökaren ladda upp en egen bild.
+
+- The debate
+   Länkar till texter i debatten. Och om även fulltextkopia i de fall
+   vi har upphovsrättsinnehavarens godkännande.
+

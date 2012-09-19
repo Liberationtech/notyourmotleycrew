@@ -1,0 +1,6 @@
+set up the django
+
+set up the nginx in front of the django
+
+
+
