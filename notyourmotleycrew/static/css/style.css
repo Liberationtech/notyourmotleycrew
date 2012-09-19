@@ -1,0 +1,33 @@
+h1 {
+    font-family: 'BodoniDisplayFSDemiRegular';
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'BodoniDisplayFSDemiItalic';
+    font-size: 30px;
+}
+
+ul.nav {
+  list-style-type: none;
+}
+
+ul.nav li {
+    display: inline;
+    padding-right: 10px;
+}
+
+ul.nav li a {
+    display: inline;
+    font-family: 'BodoniDisplayFSItalic';
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+img.feed {
+    width: 700px;
+}
+
+p {
+    font-size: 18px;
+}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block main %}
+{% for image  in images %}
+   <img class="feed" src="{{ image.get_absolute_url }}"></img>
+   <p> {{image.caption }}</p>
+
+   <div class="fb-comments" data-href="{{image.get_absolute_url}}" data-num-posts="3" data-width="470"></div>
+   <hr>
+{% endfor %}
+{% endblock %}
