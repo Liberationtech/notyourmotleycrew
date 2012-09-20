@@ -1,3 +1,35 @@
+Todos
+=====
+
+prio one
+--------
+
+gunicorn runner script 
+
+set width on caption
+
+set 
+
+pagination on start page
+
+
+When sharing on facebook, make sure the right image is chosen
+
+--------
+
+Responsive images
+
+Larger Captions.
+
+
+fewer columns on text pages
+
+
+
+TimelineJS on the "Debate page"
+
+
+
 - Flöde/Hem
     Bilder på folk med skyltar, i omvänd kronologisk ordning
     

@@ -1,11 +1,10 @@
 {% extends "base.html" %}
 
 {% block main %}
-{% for image  in images %}
    <img class="feed" src="{{ image.get_the_image_url_800 }}"></img>
-   <p> {{ image.caption }}</p>
+   <p> {{image.caption }}</p>
 
    {% include "snippets/fbcomments.html" %}
+
    <hr>
-{% endfor %}
 {% endblock %}

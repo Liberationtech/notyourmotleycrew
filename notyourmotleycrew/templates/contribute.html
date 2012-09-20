@@ -2,13 +2,33 @@
 
 {% block main %}
 <h2>Upload your picture</h2>
-<p>1. Write your message on a piece of paper  (or print one of our readymade templates)</p>
+<p>1. Make your sign. Pick one of our readymade ones and print it. </p>
+<ul>
+    {% for sign in signs  %}
+    <li> "{{sign.text}}" <a href="/sign/{{sign.id}}" target="_blank">Get this sign</a> </li>
+    {% endfor %}
+    
+    <li> 
+    
+    <form action="/makesign/" method="post">
+        {% csrf_token %}
+         {{ sign_form }}
+    <input type="submit" value="Make my custom sign!" />
+    </form>
+    </li>
+
+</ul>
 <p>2. Hold it up to your webcam, cameraphone or what have you </p>
 <p>3. Say "Cheese" or "Power to the people" or whatever works for you. </p>
-<p>4. Mail us your photo at uploads@notyourmotleycrew.com</p>
+<p>4. Put the image file somewhere on your computer.</p>
+<p>5. Select the image file.</p>
+<p>6. Write a caption.</p>
+<p>7. Upload!</p>
 
- Hold it up to your webcam, cameraphone or what have you </p>
-<p></p> , the PDF:s (or , hold it up to the camera</p>
-
+<form action="/contribute/"  enctype="multipart/form-data"  method="post">{% csrf_token %}
+    {{ form }}
+    <br/>
+    <input type="submit" value="Upload" />
+</form>
 
 {% endblock %}

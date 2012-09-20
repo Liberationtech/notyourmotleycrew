@@ -1,0 +1,7 @@
+h1 {
+    font-family: 'BodoniDisplayFSDemiRegular'; 
+    font-size: {{font_size}}px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
