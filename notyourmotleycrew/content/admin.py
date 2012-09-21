@@ -5,7 +5,7 @@ from django.contrib import admin
 
 class NYMCImageAdmin(admin.ModelAdmin):
     list_display = ('timestamp', 'caption')
-    pass
+    list_filter = ('status',)
 
 class SignAdmin(admin.ModelAdmin):
     list_display = ('timestamp', 'text', 'authorized')

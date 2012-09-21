@@ -1,10 +1,28 @@
 {% extends "base.html" %}
 
+
+{% block fbmetadata %}
+<meta property="og:image" content="http://notyourmotleycrew.com{{ image.get_the_image_url_800 }}"/>
+<meta property="og:title" content="{{image.caption}}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://notyourmotleycrew.com{{ image.get_absolute_url }}/" />
+<meta property="og:site_name" content="We are not your Motley Crew" />
+{% endblock %}
+
+
+
 {% block main %}
-   <img class="feed" src="{{ image.get_the_image_url_800 }}"></img>
-   <p> {{image.caption }}</p>
 
-   {% include "snippets/fbcomments.html" %}
+<div class="row-fluid">   
+    <div class="span10 offset1">
 
-   <hr>
+        <img class="feed" src="{{ image.get_the_image_url_800 }}"></img>
+        {% include "snippets/caption.html" %}
+
+    </div>
+</div>
+
+{% include "snippets/fbcomments.html" %}
+
+
 {% endblock %}

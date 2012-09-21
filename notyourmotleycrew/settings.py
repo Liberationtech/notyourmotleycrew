@@ -1,6 +1,7 @@
 # Django settings for notyourmotleycrew project.
 
-DEBUG = True
+#DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -127,9 +128,12 @@ INSTALLED_APPS = (
     'bootstrap_toolkit',
     'concurrent_server',
     'django_extensions',
+    'gunicorn',
 
     #our stuff
     'notyourmotleycrew.content',
+    'notyourmotleycrew.timelinejs',
+
     #'content',
 )
 

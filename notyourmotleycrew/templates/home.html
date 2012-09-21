@@ -1,11 +1,35 @@
 {% extends "base.html" %}
 
+{% block fbmetadata %}
+<meta property="og:image" content="http://notyourmotleycrew.com/media/images/120920_2129/800/TSOU2GA7U9SYOUN2487J.jpeg"/>
+<meta property="og:title" content="We are not your motley crew"/>
+<meta property="og:type" content="cause"/>
+
+<meta property="og:url" content="http://notyourmotleycrew.com"/>
+{% endblock %}
+
 {% block main %}
 {% for image  in images %}
-   <img class="feed" src="{{ image.get_the_image_url_800 }}"></img>
-   <p> {{ image.caption }}</p>
 
-   {% include "snippets/fbcomments.html" %}
-   <hr>
+
+
+<div class="row-fluid">   
+    <div class="span10 offset1">
+        <img class="feed" src="{{ image.get_the_image_url_800 }}"></img>
+        {% include "snippets/caption.html" %}
+
+    </div>
+</div>
+
+{% include "snippets/fblikebutton.html" %}
+
+
+<div class="row-fluid">   
+    <div class="span10 offset1">
+        <a href="{{image.get_absolute_url}}#comments">comments</a>
+    </div>
+</div>
+
+
 {% endfor %}
 {% endblock %}

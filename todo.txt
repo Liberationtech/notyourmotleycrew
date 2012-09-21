@@ -4,14 +4,9 @@ Todos
 prio one
 --------
 
-gunicorn runner script 
-
-set width on caption
-
-set 
-
 pagination on start page
 
+add the cron scaling
 
 When sharing on facebook, make sure the right image is chosen
 

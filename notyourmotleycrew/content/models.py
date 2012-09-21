@@ -13,10 +13,14 @@ import random
 from os.path import join
 from os import makedirs
 
+NOTCHECKED = 'NOTCHECKED'
+BANNED = 'BANNED'
+APPROVED = 'APPROVED'
+
 STATUS_CHOICES = (
-        ('NOTCHECKED', 'Not checked yet'),
-        ('BANNED', 'Banned'),
-        ('APPROVED', 'Approved'),
+        (NOTCHECKED, 'Not checked yet'),
+        (BANNED, 'Banned'),
+        (APPROVED, 'Approved'),
         )
 
 def image_file_name(instance, originalfilename):

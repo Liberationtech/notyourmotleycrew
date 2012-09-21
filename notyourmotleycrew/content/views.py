@@ -14,6 +14,7 @@ from notyourmotleycrew.content.forms import SignForm
 from notyourmotleycrew.content.models import NYMCImage
 from notyourmotleycrew.content.models import Sign
 from notyourmotleycrew.content.models import image_file_name
+from notyourmotleycrew.content.models import BANNED
 from notyourmotleycrew.settings import MEDIA_ROOT
 from os import makedirs
 from os.path import dirname
@@ -71,7 +72,7 @@ def single_image(request, **kwargs):
 
 def home(request):
     template = "home.html"
-    images = NYMCImage.objects.exclude(image800="").order_by('-timestamp')
+    images = NYMCImage.objects.exclude(status=BANNED).exclude(image800="").order_by('-timestamp')
     return render_to_response(template, {'images':images})
 
 def about(request):
