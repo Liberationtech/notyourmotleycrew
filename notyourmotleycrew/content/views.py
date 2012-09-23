@@ -13,6 +13,7 @@ from notyourmotleycrew.content.forms import ImageForm
 from notyourmotleycrew.content.forms import SignForm
 from notyourmotleycrew.content.models import NYMCImage
 from notyourmotleycrew.content.models import Sign
+from notyourmotleycrew.timelinejs.models import Timeline
 from notyourmotleycrew.content.models import image_file_name
 from notyourmotleycrew.content.models import BANNED
 from notyourmotleycrew.settings import MEDIA_ROOT
@@ -108,6 +109,16 @@ def handle_file_upload(form, f):
     newimage.save()
 
     #import pdb; pdb.set_trace() 
+
+def timeline_data(request):
+
+    timeline = Timeline.objects.all()[0]
+    json = timeline.get_json()
+    return HttpResponse(json, mimetype='application/json')
+
+def thedebate(request):
+
+    return render_to_response('thedebate.html', {})
 
 
 def contribute(request):

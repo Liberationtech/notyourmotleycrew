@@ -6,9 +6,7 @@ prio one
 
 pagination on start page
 
-add the cron scaling
-
-When sharing on facebook, make sure the right image is chosen
+the timelinejs-page
 
 --------
 

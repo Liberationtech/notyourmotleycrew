@@ -5,7 +5,7 @@ from django.contrib import admin
 
 class TimelineAdmin(admin.ModelAdmin):
     list_display = ('headline', 'startdate')
-    list_filter = ('status',)
+    #list_filter = ('status',)
 
 class EventAdmin(admin.ModelAdmin):
     list_display = ('startdate', 'headline',)
