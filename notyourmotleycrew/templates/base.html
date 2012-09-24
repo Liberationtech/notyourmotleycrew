@@ -16,7 +16,6 @@
 <meta property="og:title" content="We are not your motley crew"/>
 <meta property="og:url" content="http://notyourmotleycrew.com"/>
 <meta property="og:type" content="cause"/>
-
 {% endblock %}
 
 <!-- Le styles -->
@@ -80,8 +79,11 @@ _gaq.push(['_trackPageview']);
 <body>
 
 <!--fb comments -->
-{% include "snippets/fbhtml5sdk.html" %}
+{% include "snippets/fbhtml5sdk.html" %}i
 
+{% block body_before_container %}
+
+{% endblock %}
 <div class="container-fluid">
 
     <!--HEADLINE-->
