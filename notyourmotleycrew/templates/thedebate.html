@@ -1,27 +1,2 @@
-{% extends "base.html" %}
+{% extends "superbasictest.html" %}
 
-{% block extrahead %}
-
- <!--radac-->
-<script type="text/javascript" src="http://timeline.verite.co/lib/timeline/js/storyjs-embed.js"></script>
-<script>
-$(document).ready(function() {
-    createStoryJS({
-        type:       'timeline',
-        width:      '800',
-        height:     '600',
-        source:     'timeline_data',
-        embed_id:   'my-timeline'
-    });
-});
-</script>
-{% endblock %}
-
-{% block main %}
-
-<div id="my-timeline"></div>
-
-
-
-<p>hello</p>
-{% endblock %}
