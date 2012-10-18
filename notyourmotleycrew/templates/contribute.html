@@ -15,23 +15,8 @@
 
         </p>
 
-        <p>1. Make your sign. Draw your own or pick a readymade one and print it. </p>
-        <ul>
-
-            <li> 
-
-            <form action="/makesign/" method="post">
-                {% csrf_token %}
-                {{ sign_form }}
-                <input type="submit" value="Print my custom sign!" />
-            </form>
-            </li>
-
-            {% for sign in signs  %}
-            <li> "{{sign.text}}" <a href="/sign/{{sign.id}}" target="_blank">Print this sign</a> </li>
-            {% endfor %}
-        </ul>
-        <p>2. Hold it up to your webcam, cameraphone or what have you </p>
+        <p>1. Make your sign. </p>
+        <p>2. Hold it up to your webcam, cameraphone or what have you. </p>
         <p>3. Say "Cheese" or "All power to the people" or whatever works for you. </p>
         <p>4. Put the image file somewhere on your computer.</p>
         <p>5. Select the image file.</p>

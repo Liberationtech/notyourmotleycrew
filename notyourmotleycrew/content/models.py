@@ -1,5 +1,7 @@
 from django.db import models
 
+
+from django.core.mail import send_mail
 from os.path import exists
 # Create your models here.
 from os.path import dirname
@@ -41,6 +43,8 @@ class NYMCImage(models.Model):
     image800 = models.ImageField(upload_to=image_file_name, null=True)
     image1000 = models.ImageField(upload_to=image_file_name, null=True)
 
+    email = models.EmailField(default="example@example.com")
+
     def get_file_name_for_resolution(self, resolution):
         path = dirname(self.image.name)
         base = basename(self.image.name)
@@ -65,9 +69,13 @@ class NYMCImage(models.Model):
                 makedirs(path)
 
             newimage.save(target_image.path)
-            print target_image.path
-            print target_image.name
             self.save()
+            
+            #once per cycle send an email that theres a new image to check out
+            if resolution == 200:
+                send_mail("There's a new image at notyourmotleycrew.com", " http://notyourmotleycrew.com/admin/content/nymcimage/?status__exact=NOTCHECKED ", "oivvio@polite.se", ["oivvio@polite.se",])
+
+                 
 
     def scale_images(self):
         
@@ -80,7 +88,6 @@ class NYMCImage(models.Model):
     
     def get_absolute_url(self):
         result = "/single_image/%s" % (self.id,)
-        print result
         return result
         #return MEDIA_URL + self.image.name
 

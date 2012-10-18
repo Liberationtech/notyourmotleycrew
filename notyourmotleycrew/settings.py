@@ -11,6 +11,15 @@ ADMINS = (
 MANAGERS = ADMINS
 
 
+EMAIL_HOST='smtp.webfaction.com'
+EMAIL_HOST_USER='oivvio'
+EMAIL_HOST_PASSWORD='ljudepop'
+EMAIL_PORT='25'
+DEFAULT_FROM_EMAIL = "oivvio@polite.se"
+
+
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -109,7 +118,7 @@ TEMPLATE_DIRS = (
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
     #"/home/oivvio/notyourmotleycrew/notyourmotleycrew/templates",
-    "/home/oivvio/dev/notyourmotleycrew/notyourmotleycrew/templates",
+    "/home/oivvio/notyourmotleycrew/notyourmotleycrew/templates",
 )
 
 INSTALLED_APPS = (

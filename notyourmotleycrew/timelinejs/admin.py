@@ -22,9 +22,19 @@ class TimelineAdmin(admin.ModelAdmin):
 
 
 class EventAdmin(admin.ModelAdmin):
-    list_display = ('headline',)
-    list_filter = ('timeline',)
+    #list_display = ('pk', 'url', 'headline', 'author', 'media_outlet' , 'facebook_total_count', 'added_by', 'startdate' )
+    #list_display = ('pk', 'url', 'headline', 'author', 'media_outlet' , 'facebook_total_count', 'added_by' )
+    list_display = ('pk', 'url', 'headline', 'author', 'media_outlet' , 'facebook_total_count', 'added_by', 'get_startdate' )
+    list_filter = ('cleared_for_publication','timeline', 'added_by', 'media_outlet' )
     inlines = [EventStartdateInline,]
+
+
+    def save_model(self, request, obj, form, change):
+        """When creating a new object, set the creator field.
+        """
+        if not change:
+            obj.added_by = request.user
+        obj.save()
 
 admin.site.register(Timeline, TimelineAdmin)
 admin.site.register(Event, EventAdmin)

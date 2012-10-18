@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Not Timeline JS Example</title>
+    <title>Not your Motley Crew - The debate</title>
     <meta charset="utf-8">
     <meta name="description" content="Not your Motley Crew - The debate">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -21,8 +21,20 @@
 </html>
 <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=283173038454857";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <a href="/"> Not your Motley Crew </a> 
-  <!-- BEGIN Timeline Embed -->
+
+<div class="fb-like" data-href="http://notyourmotleycrew.com" data-send="false" data-width="450" data-show-faces="true"></div>  
+
+<!-- BEGIN Timeline Embed -->
   <div id="timeline-embed"></div>
   <script type="text/javascript">
     var timeline_config = {

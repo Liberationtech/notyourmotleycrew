@@ -10,26 +10,34 @@
 
 {% block main %}
 {% for image  in images %}
-
-
-
 <div class="row-fluid">   
     <div class="span10 offset1">
-        <img class="feed" src="{{ image.get_the_image_url_800 }}"></img>
+        <img class="feed" src="{{ image.get_the_image_url_600 }}"></img>
         {% include "snippets/caption.html" %}
 
     </div>
 </div>
 
-{% include "snippets/fblikebutton.html" %}
 
-
+{% endfor %}
 <div class="row-fluid">   
     <div class="span10 offset1">
-        <a href="{{image.get_absolute_url}}#comments">comments</a>
+        <div class="pagination">
+            <span class="step-links">
+                {% if images.has_previous %}
+                <a href="?page={{ images.previous_page_number }}">previous</a>
+                {% endif %}
+                
+                <span class="current">
+                    Page {{ images.number }} of {{ images.paginator.num_pages }}.
+                </span>
+
+                {% if images.has_next %}
+                <a href="?page={{ images.next_page_number }}">next</a>
+                {% endif %}
+            </span>
+        </div>
     </div>
 </div>
 
-
-{% endfor %}
 {% endblock %}

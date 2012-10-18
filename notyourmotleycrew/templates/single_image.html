@@ -23,7 +23,10 @@
 </div>
 
 {% include "snippets/fblikebutton.html" %}
+{% if image.pk == 28 %}
 {% include "snippets/fbcomments.html" %}
+{% endif %}
+
 
 
 {% endblock %}
