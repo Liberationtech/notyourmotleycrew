@@ -137,9 +137,17 @@ def timeline_data(request):
     json = timeline.get_json()
     return HttpResponse(json, mimetype='application/json')
 
+def get_md(templatename):
+    template = get_template(templatename)
+    return template.render(Context())
+
 def thedebate(request):
     return render_to_response('thedebate.html', {})
 
+def english_summary_of_the_swedish_debate(request):
+    #instead of getting the md ourselves let's have django do it
+    md = get_md("markdown/english_summary_of_the_swedish_debate.md")
+    return render_to_response("markdown_base.html", {'md':md})
 
 def contribute(request):
     if request.method == 'POST': # If the form has been submitted...
