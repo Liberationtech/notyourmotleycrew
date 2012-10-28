@@ -1,5 +1,10 @@
+
 An English summary 
 -------------------
+
+<iframe src="http://player.vimeo.com/video/47505511?title=0&amp;byline=0&amp;portrait=0" width="400" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
 
 During the fall of 2012 Sweden has been engaged in a an intense debate about racism in childrens film, literature and comics. Elsewhere on this site you'll find a [very comprehensive timeline](/thedebate) listing all articles, blogposts, pressreleases,  interviews etc that have. Every entry on that timeline also contains a link to a Google translate version, which will give you rough idea about what's being said. But machine translation still leaves a great deal to be desired.
 
