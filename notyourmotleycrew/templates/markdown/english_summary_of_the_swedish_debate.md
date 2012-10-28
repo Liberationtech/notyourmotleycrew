@@ -3,13 +3,14 @@ An English summary
 
 <iframe src="http://player.vimeo.com/video/47505511?title=0&amp;byline=0&amp;portrait=0" width="600" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-During the fall of 2012 Sweden has been engaged in a an intense debate about racism in childrens film, literature and comics. Elsewhere on this site you'll find a [very comprehensive timeline](/thedebate) listing all articles, blogposts, pressreleases,  interviews etc that have. Every entry on that timeline also contains a link to a Google translate version, which will give you rough idea about what's being said. But machine translation still leaves a great deal to be desired.
+During the fall of 2012 Sweden has been engaged in an intense debate about racism in childrens film, literature and comics. Elsewhere on this site you'll find a [very comprehensive timeline](/thedebate) listing all articles, blogposts, press releases, interviews etc that have been published. Every entry on that timeline also contains a link to a Google translate version, which will give you a rough idea about what's being said. But machine translation still leaves a great deal to be desired.
 
-This summary page  aims to give the English language reader an overview of the main events in the debate, the arguments being made and to provide some explanatory context where needed.
+This summary page aims to give the English language reader an overview of the main events in the debate, summarize the arguments being made and to provide some explanatory context where needed.
 
-_Full disclosure_: I (Oivvio Polite) myself am very much involved in this discussion. I've written several articles, put up this site. 
+_Full disclosure_: My name is  Oivvio Polite and I'm very much a part of this debate.
+ I've written several articles as well as gone on national radio to condemn the proliferation of racist stereotypes. I'm a writer, a programmer and a father of three.
 
-If your a blogger, or member of the media and want to know more about this discussion, or need help getting in touch with relevant sources in Sweden, please don't hesitate to reach out at: [oivvio@liberationtech.net](oivvio@liberationtech.net)
+If you're a blogger or member of the media and want to know more about this discussion, or need help getting in touch with relevant sources in Sweden, please don't hesitate to reach out at: [oivvio@liberationtech.net](oivvio@liberationtech.net)
 
 
 ### 16 September 2012
