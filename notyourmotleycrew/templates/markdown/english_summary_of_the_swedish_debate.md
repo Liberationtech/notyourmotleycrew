@@ -18,7 +18,7 @@ Illustrator and director Stina Wirsén appears on the morning TV show "Gomorron 
 
 Several clips featuring the pickaninny character are played, yet the host never broaches the subject of stereotypes. More than sloppy journalism I'd say that this omission is a reflection of the fact that Swedes, in general, aren't very familiar with the history of racism.
 
-A word for word translation of the title would be "Little pink and all the small multi colored ones". In trying to find a more graceful translation I and others came up with "Little Pink and the Motley Crew". Later I realized that the production company behind the film use the English title "Little pink and brokiga" leaving the last Swedish word in place. Later yet I realized that "Brokiga" is also the name for the international brand of merchandise products based on the characters from the film and the books that came before the film.
+A word for word translation of the title would be "Little pink and all the small multi colored ones". In trying to find a more graceful translation I and others came up with "Little Pink and the Motley Crew". Later I realized that the production company behind the film uses the English title "Little pink and brokiga" leaving the last Swedish word in place. Later yet I realized that "Brokiga" is also the name for the international brand of merchandise products based on the characters from the film and the books that came before the film.
 
 
 
@@ -26,17 +26,17 @@ A word for word translation of the title would be "Little pink and all the small
 
 A critical discussion begins on Folkets Bio Facebook page. Folkets Bio is small independent movie theater chain. 
 
-[Diskussion on Folkets Bio FB-page](https://www.facebook.com/photo.php?fbid=438299179541655&set=a.141931915845051.18844.102627866442123&type=1&theater)
+[Discussion on Folkets Bio FB-page](https://www.facebook.com/photo.php?fbid=438299179541655&set=a.141931915845051.18844.102627866442123&type=1&theater)
 
 
 
 ### 7 September 2012
 
-The team behind _Liten skär_ issue a [press release](https://www.facebook.com/permalink.php?story_fbid=283084368458060&id=276727909093706) stating that they are well aware of the tradtion of racist imagiry but that they felt that 
+The team behind _Liten skär_ issue a [press release](https://www.facebook.com/permalink.php?story_fbid=283084368458060&id=276727909093706) stating that they are well aware of the tradition of racist imagery but that they felt that 
 
 > We've reached a point in history where it should be possible to stylize a dark figure in the same way as one 
 > would a light. It's partly because of the blackface stereotype that it's very rare to see any
-> really dark skinned kids in movies for children today ... It's unfortunate to avoid the depiction a black
+> really dark skinned kids in movies for children today ... It's unfortunate to avoid the depiction of a black
 > figure because of [the blackface tradition]. We wanted to puncture that tradition.
 
 ### 10 September 2012
@@ -45,63 +45,63 @@ Literary critic Jonas Thente writes in leading Swedish daily [Dagens Nyheter](ht
 
 > I'll admit that I had to pinch myself after hearing that Stina Wirsén movie _Little pink and brokiga_
 > has been attacked for being racist. 
-> Yes, as usual we're dealing with a young humanities scholor who together with some bloggers 
-> and twitterati gone beserk after concluding that one of the characters ... according to them
+> Yes, as usual we're dealing with a young humanities scholar who,  together with some bloggers 
+> and twitterati, has gone beserk after concluding that one of the characters ... according to them
 > looks like a "racist stereotype".
 >
 > ...
 > I'm well aware of the struggle for scholarships and funding within Swedish academia. 
 > One has to make headlines to get the dough, to make more headlines to get more dough and so on.
 > 
-> I'm know that make good research in the humanities is very time-consuming and you have
+> I know that to do good research in the humanities is very time-consuming and you have to 
 > wrap your head around all this really challenging literature, which you don't have
-> the time to do since your busy fighting for funding, but there's always shorcuts through
-> tabloid headlines, blogs, twitter och American domestic policy.
+> the time to do since you're busy fighting for funding, but there are always shorcuts through
+> tabloid headlines, blogs, twitter and American domestic policy.
 >
 >
-> But still: You have to be at _tiiiny_ bit more inventive than calling Stina Wirsén a racist.
+> But still: You have to be a _tiiiny_ bit more inventive than calling Stina Wirsén a racist.
 
 
 
 
 ### 11 September 2012
 
-Stina Wirsen is interview by TT Spektra (a Swedish news agency whose articles are syndicated nationwide). Wirsen says that she and the distributors are retracting the movie poster for "Liten skär".
+Stina Wirsén is interviewed by TT Spektra (a Swedish news agency whose articles are syndicated nationwide). Wirsén says that she and the distributors are retracting the movie poster for "Liten skär".
 
 > Our intention was the direct opposite and we are really sorry if anyone 
 > feels insulted or think that we are perpetuating racist imagery. 
 > We don't want to quarrel and so we have decided to retract the post 
 > that they have reacted to.
 
-This is statement is met with some confusing on social media where black swedes discuss the matter. Nobody feels that the poster was the  problem, and that everything would be fine if we just got rid of the poster.
+This statement is met with some confusion on social media where black Swedes discuss the matter. Nobody feels that the poster was the  problem, and that everything would be fine if we just got rid of the poster.
 
 
 ### 11 September 2012
 
-Sverker Lenas, another former colleague of Wirsens, [writes in Dagens Nyheter](http://www.dn.se/dnbok/dnbok-hem/sverker-lenas-synd-om-det-leder-till-mer-radsla) and makes the following argument:
+Sverker Lenas, another former colleague of Wirséns, [writes in Dagens Nyheter](http://www.dn.se/dnbok/dnbok-hem/sverker-lenas-synd-om-det-leder-till-mer-radsla) and makes the following argument:
 
 1. Black kids are completely absent in Swedish childrens culture.
 
-2. Stina Wirsen is countering this  status quo by drawing a black child. 
+2. Stina Wirsén is countering this  status quo by drawing a black child. 
 
-3. Being overly critical of Wirsens attempt at introducing greater diversity might deter other children's books authors to do the same thing, thus perpetuating the dominance of white characters.
+3. Being overly critical of Wirséns attempt at introducing greater diversity might deter other children's books authors to do the same thing, thus perpetuating the dominance of white characters.
 
 
 ### 13 September 2012
 
 
-Ulf Stark, an prolific childrens book author, who have collaborated with Wirsen on several projects writes in [Dagens Nyheter](http://www.dn.se/kultur-noje/debatt-essa/med-lilla-hjartat-pa-ratta-stallet)
+Ulf Stark, a prolific children's books author, who have collaborated with Wirsén on several projects, writes in [Dagens Nyheter](http://www.dn.se/kultur-noje/debatt-essa/med-lilla-hjartat-pa-ratta-stallet)
 
-His argument is that Wirsens depiction of a black child might be close to an old stereotype but that it is not racist. Rather, he argues, it is the attempts to reduce the difference of black characters, making them more white, that is problematic. And goes on to say:
+His argument is that Wirséns depiction of a black child might be close to an old stereotype but that it is not racist. Rather, he argues, it is the attempts to reduce the difference of black characters, making them more white, that are problematic. And he goes on to say:
 
-> They [Wirsen and her collaborators] create a version of the racist 
-> black girl-cliche. But the give it new content - humor, warmth, 
+> They [Wirsén and her collaborators] create a version of the racist 
+> black girl-cliche. But they give it new content - humor, warmth, 
 > curiosity and pranks - so striking that the old image crackles...
 
 
 <!--### 14 September 2012-->
 
-<!--Eva Dahlin of Bonnier Carlsen, Stina Wirsens publishing house, -->
+<!--Eva Dahlin of Bonnier Carlsen, Stina Wirséns publishing house, -->
 <!--[rehashes the arguments of Lenas and Stark](http://www.bonniercarlsen.se/Press/Nyheter/Apropa-debatten-om-Lilla-hjartat-och-brokiga/) -->
 
 
@@ -114,12 +114,12 @@ His argument is that Wirsens depiction of a black child might be close to an old
 
 ### 23 September 2012 
 
-Erik Helmersson, editorial writer at,  Dagens Nyheter. Repeats some of the arguments of his colleagues and [ads a couple of new ones](http://www.dn.se/ledare/signerat/filmdebatt-den-mest-krankta-har-inte-alltid-ratt), mainly that even though some black people are critical of "Lilla Hjärtat", that doesn't mean that they need to be listened too. He erroneously identifies ASR (The Afro Swedish National Association) as the main critics, although ASR actually had not spoken out about "Lilla hjärtat" at this point.
+Erik Helmersson, editorial writer at Dagens Nyheter, repeats some of the arguments of his colleagues and [adds a couple of new ones](http://www.dn.se/ledare/signerat/filmdebatt-den-mest-krankta-har-inte-alltid-ratt), mainly that even though some black people are critical of "Lilla Hjärtat", that doesn't mean that they need to be listened too. He erroneously identifies ASR (The Afro Swedish National Association) as the main critics, although ASR actually had not spoken out about "Lilla hjärtat" at this point.
 
 > This [refering to the low membership numbers of ASR] does not mean that
 > ASR:s arguments are weak or that one should not listen to them.
 > But one should be careful about equating their voice with the opinion
-> of all afroswedes.
+> of all Afro-Swedes.
 > ...
 > Most importantly: Why on Gods earth should all non white people have 
 > the same opinion on matters such as whether "Liten skär och alla små 
@@ -129,14 +129,14 @@ Erik Helmersson, editorial writer at,  Dagens Nyheter. Repeats some of the argum
 
 ### 25 September 2012
 
-Dagens Nyheter publishes a story about Behrang Miri, the artistic director at TioTretton (TenThirteen), an activity space for tweens housed with Kulturhuset (a large cultural institution) in the center of Stockholm. Behrang Miri had decided to move the collection of Tintin-comics from TioTretton to Serieteket. Serieteket is a special comics only-library within Kulturhuset. It's directed towards an adult and young adults audience.
+Dagens Nyheter publishes a story about Behrang Miri, the artistic director at TioTretton (TenThirteen), an activity space for tweens housed at Kulturhuset (a large cultural institution) in the center of Stockholm. Behrang Miri had decided to move the collection of Tintin-comics from TioTretton to Serieteket. Serieteket is a special comics only-library within Kulturhuset. It's directed towards an adult and young adults audience.
 
 This article is given a prominent placement and accompanied by an [opinion piece](http://www.dn.se/dnbok/dnbok-hem/birgitta-rubin-utrensningen-vacker-dubbla-kanslor-hos-mig) criticizing the move.
 
-The Miri-interview sparks outrage among the Swedish twitterati and by lunchtime Erik Sjöström, the director of Kulturheset and Behrang Miris superior, has gone on record retracting Miris decision of moving the collection from one part of Kulturhuset to another. 
+The Miri-interview sparks outrage among the Swedish twitterati and by lunchtime Erik Sjöström, the director of Kulturhuset and Behrang Miri's superior, has gone on record retracting Miris decision of moving the collection from one part of Kulturhuset to another. 
 
 
-<!--My theory, without a lot backing it up really. Dagens Nyheter, where getting a uncomfortable with the Wirsen-discussion.   -->
+<!--My theory, without a lot backing it up really. Dagens Nyheter, where getting a uncomfortable with the Wirsén-discussion.   -->
 
 <!--### 25 Septemer 2012-->
 
