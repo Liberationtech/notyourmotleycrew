@@ -84,93 +84,100 @@ Sverker Lenas, another former colleague of Wirsens, [writes in Dagens Nyheter](h
 
 2. Stina Wirsen is countering this  status quo by drawing a black child. 
 
-3. Being overly critical of Wirsens attempt at introducing greater diversity might deter other childrens books authors to do the same thing, thus perpetuating the dominance of white characters.
+3. Being overly critical of Wirsens attempt at introducing greater diversity might deter other children's books authors to do the same thing, thus perpetuating the dominance of white characters.
 
-
-
-
-I'll flesh out the stuff below during monday
---------------------------------------------
 
 ### 13 September 2012
 
-Stina Wirsén i Fokus
 
-http://www.fokus.se/2012/09/det-finns-gott-om-beiga-barn-i-litteraturen/
+Ulf Stark, an prolific childrens book author, who have collaborated with Wirsen on several projects writes in [Dagens Nyheter](http://www.dn.se/kultur-noje/debatt-essa/med-lilla-hjartat-pa-ratta-stallet)
 
-### 13 September 2012
+His argument is that Wirsens depiction of a black child might be close to an old stereotype but that it is not racist. Rather, he argues, it is the attempts to reduce the difference of black characters, making them more white, that is problematic. And goes on to say:
 
-Ulf Stark i DN
-http://www.dn.se/kultur-noje/debatt-essa/med-lilla-hjartat-pa-ratta-stallet
-
-
-### 14 September 2012
-
-Publisher Eva Dahlin on Bonnier Carlsens blogg
-http://www.bonniercarlsen.se/Press/Nyheter/Apropa-debatten-om-Lilla-hjartat-och-brokiga/
+> They [Wirsen and her collaborators] create a version of the racist 
+> black girl-cliche. But the give it new content - humor, warmth, 
+> curiosity and pranks - so striking that the old image crackles...
 
 
+<!--### 14 September 2012-->
+
+<!--Eva Dahlin of Bonnier Carlsen, Stina Wirsens publishing house, -->
+<!--[rehashes the arguments of Lenas and Stark](http://www.bonniercarlsen.se/Press/Nyheter/Apropa-debatten-om-Lilla-hjartat-och-brokiga/) -->
 
 
-### 21 September 2012
 
-Barnkino
-http://sverigesradio.se/sida/avsnitt/98928?programid=3051
+<!--### 21 September 2012-->
 
+<!--Barnkino-->
+<!--http://sverigesradio.se/sida/avsnitt/98928?programid=3051-->
 
 
 ### 23 September 2012 
 
-Erik Helmersson i DN
+Erik Helmersson, editorial writer at,  Dagens Nyheter. Repeats some of the arguments of his colleagues and [ads a couple of new ones](http://www.dn.se/ledare/signerat/filmdebatt-den-mest-krankta-har-inte-alltid-ratt), mainly that even though some black people are critical of "Lilla Hjärtat", that doesn't mean that they need to be listened too. He erroneously identifies ASR (The Afro Swedish National Association) as the main critics, although ASR actually had not spoken out about "Lilla hjärtat" at this point.
 
-http://www.dn.se/ledare/signerat/filmdebatt-den-mest-krankta-har-inte-alltid-ratt
-
-
-
-
-### 25 Septemer 2012
-
-Herman Lindqvist i Aftonbladet
-
-http://www.aftonbladet.se/debatt/article15498578.ab
-
-
-### 28 September 2012
-
-Makode Linde
-http://www.dn.se/kultur-noje/debatt-essa/tusen-nyanser-av-svart
+> This [refering to the low membership numbers of ASR] does not mean that
+> ASR:s arguments are weak or that one should not listen to them.
+> But one should be careful about equating their voice with the opinion
+> of all afroswedes.
+> ...
+> Most importantly: Why on Gods earth should all non white people have 
+> the same opinion on matters such as whether "Liten skär och alla små 
+> brokiga" should be stopped? And since they don't: Why should those 
+> who are loudest be allowed to set the agenda?
 
 
-### 30 September 2012
+### 25 September 2012
 
-Björn Wiman
-http://www.dn.se/kultur-noje/kronikor/bjorn-wiman-vad-blir-det-kvar-av-konsten-om-allt-socker-tas-bort-ur-saften
-
-
-### 3 Oktober 2012
-
-Intervju i AB
-http://www.aftonbladet.se/nojesbladet/article15531748.
+Dagens Nyheter publishes a story about Behrang Miri, the artistic director at TioTretton (TenThirteen), an activity space for tweens housed with Kulturhuset (a large cultural institution) in the center of Stockholm. Behrang Miri had decided to move the collection of Tintin-comics from TioTretton to Serieteket. Serieteket is a special comics only-library within Kulturhuset. It's directed towards an adult and young adults audience.
 
 
 
-### 5 October 2012
+<!--My theory, without a lot backing it up really. Dagens Nyheter, where getting a uncomfortable with the Wirsen-discussion.   -->
 
-Björn WIman 
-http://www.dn.se/kultur-noje/debatt-essa/bjorn-wiman-hellre-brak-och-debatt-i-efterhand
+<!--### 25 Septemer 2012-->
 
+<!--Herman Lindqvist i Aftonbladet-->
 
-### 16 October 2012
-
-Sverker Lenas
-
-http://www.dn.se/kultur-noje/debatt-essa/sverker-lenas-rasismen-i-samhallet-gar-inte-att-retuschera-bort
+<!--http://www.aftonbladet.se/debatt/article15498578.ab-->
 
 
-### 23 October 2012
+<!--### 28 September 2012-->
 
-Stina Wirsén 
+<!--Makode Linde-->
+<!--http://www.dn.se/kultur-noje/debatt-essa/tusen-nyanser-av-svart-->
 
-http://www.dn.se/kultur-noje/debatt-essa/mina-kritiker-har-begransad-utblick
+
+<!--### 30 September 2012-->
+
+<!--Björn Wiman-->
+<!--http://www.dn.se/kultur-noje/kronikor/bjorn-wiman-vad-blir-det-kvar-av-konsten-om-allt-socker-tas-bort-ur-saften-->
+
+
+<!--### 3 Oktober 2012-->
+
+<!--Intervju i AB-->
+<!--http://www.aftonbladet.se/nojesbladet/article15531748.-->
+
+
+
+<!--### 5 October 2012-->
+
+<!--Björn WIman -->
+<!--http://www.dn.se/kultur-noje/debatt-essa/bjorn-wiman-hellre-brak-och-debatt-i-efterhand-->
+
+
+<!--### 16 October 2012-->
+
+<!--Sverker Lenas-->
+
+<!--http://www.dn.se/kultur-noje/debatt-essa/sverker-lenas-rasismen-i-samhallet-gar-inte-att-retuschera-bort-->
+
+
+<!--### 23 October 2012-->
+
+<!--Stina Wirsén -->
+
+<!--http://www.dn.se/kultur-noje/debatt-essa/mina-kritiker-har-begransad-utblick-->
 
 
