@@ -131,6 +131,9 @@ Erik Helmersson, editorial writer at,  Dagens Nyheter. Repeats some of the argum
 
 Dagens Nyheter publishes a story about Behrang Miri, the artistic director at TioTretton (TenThirteen), an activity space for tweens housed with Kulturhuset (a large cultural institution) in the center of Stockholm. Behrang Miri had decided to move the collection of Tintin-comics from TioTretton to Serieteket. Serieteket is a special comics only-library within Kulturhuset. It's directed towards an adult and young adults audience.
 
+This article is given a prominent placement and accompanied by an [opinion piece](http://www.dn.se/dnbok/dnbok-hem/birgitta-rubin-utrensningen-vacker-dubbla-kanslor-hos-mig) criticizing the move.
+
+The Miri-interview sparks outrage among the Swedish twitterati and by lunchtime Erik Sjöström, the director of Kulturheset and Behrang Miris superior, has gone on record retracting Miris decision of moving the collection from one part of Kulturhuset to another. 
 
 
 <!--My theory, without a lot backing it up really. Dagens Nyheter, where getting a uncomfortable with the Wirsen-discussion.   -->
@@ -163,7 +166,7 @@ Dagens Nyheter publishes a story about Behrang Miri, the artistic director at Ti
 
 <!--### 5 October 2012-->
 
-<!--Björn WIman -->
+<!--Björn Wiman -->
 <!--http://www.dn.se/kultur-noje/debatt-essa/bjorn-wiman-hellre-brak-och-debatt-i-efterhand-->
 
 
