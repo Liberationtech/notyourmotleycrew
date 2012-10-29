@@ -63,20 +63,34 @@ Literary critic Jonas Thente writes in leading Swedish daily [Dagens Nyheter](ht
 
 
 
-I'll flesh out the stuff below during monday
---------------------------------------------
 
 ### 11 September 2012
 
-<!-- XXX TODO Stub to fill out-->
+Stina Wirsen is interview by TT Spektra (a Swedish news agency whose articles are syndicated nationwide). Wirsen says that she and the distributors are retracting the movie poster for "Liten skär".
+
+> Our intention was the direct opposite and we are really sorry if anyone 
+> feels insulted or think that we are perpetuating racist imagery. 
+> We don't want to quarrel and so we have decided to retract the post 
+> that they have reacted to.
+
+This is statement is met with some confusing on social media where black swedes discuss the matter. Nobody feels that the poster was the  problem, and that everything would be fine if we just got rid of the poster.
 
 
-TT Spektra i Sydsvenskan
-http://www.sydsvenskan.se/kultur--nojen/affisch-rasistanklagas/
+### 11 September 2012
 
-Sverker Lenas
-http://www.dn.se/dnbok/dnbok-hem/sverker-lenas-synd-om-det-leder-till-mer-radsla
+Sverker Lenas, another former colleague of Wirsens, [writes in Dagens Nyheter](http://www.dn.se/dnbok/dnbok-hem/sverker-lenas-synd-om-det-leder-till-mer-radsla) and makes the following argument:
 
+1. Black kids are completely absent in Swedish childrens culture.
+
+2. Stina Wirsen is countering this  status quo by drawing a black child. 
+
+3. Being overly critical of Wirsens attempt at introducing greater diversity might deter other childrens books authors to do the same thing, thus perpetuating the dominance of white characters.
+
+
+
+
+I'll flesh out the stuff below during monday
+--------------------------------------------
 
 ### 13 September 2012
 
