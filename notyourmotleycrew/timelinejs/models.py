@@ -133,8 +133,13 @@ class Event(models.Model):
 
         text = self.text
         translateurl = "http://translate.google.com/translate?sl=sv&tl=en&js=n&prev=_t&hl=sv&ie=UTF-8&layout=2&eotf=1&u={0}".format(self.url)
+        if self.facebook_total_count >  0:
+            fbcount = "<p>facebook likes: {0}</p>".format(self.facebook_total_count)
+        else:
+            fbcount = ""
+
         if self.url:
-            text += u"<p><a href='{0}'>länk</a><p> <p><a href='{1}'>google translate</a></p>".format(self.url, translateurl)
+            text += u"<p><a href='{0}'>länk</a><p> {1} <p><a href='{2}'>google translate</a></p>".format(self.url, fbcount, translateurl)
 
         #if request.user.is_staff():
             #text += "<p>edit</p>"
