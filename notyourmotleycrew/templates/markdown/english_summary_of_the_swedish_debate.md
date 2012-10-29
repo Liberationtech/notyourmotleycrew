@@ -3,7 +3,7 @@ An English summary
 
 <iframe src="http://player.vimeo.com/video/47505511?title=0&amp;byline=0&amp;portrait=0" width="600" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-During the fall of 2012 Sweden has been engaged in an intense debate about racism in childrens film, literature and comics. Elsewhere on this site you'll find a [very comprehensive timeline](/thedebate) listing all articles, blogposts, press releases, interviews etc that have been published. Every entry on that timeline also contains a link to a Google translate version, which will give you a rough idea about what's being said. But machine translation still leaves a great deal to be desired.
+During the fall of 2012 Sweden has been engaged in an intense debate about racism in childrens film, literature and comics. Elsewhery on this site you'll find a [very comprehensive timeline](/thedebate) listing all articles, blogposts, press releases, interviews etc that have been published. Every entry on that timeline also contains a link to a Google translate version, which will give you a rough idea about what's being said. But machine translation still leaves a great deal to be desired.
 
 This summary page aims to give the English language reader an overview of the main events in the debate, summarize the arguments being made and to provide some explanatory context where needed. The summary focuses on the arguments being put forth by those who feel that reusing racist stereotypes isn't really a big problem. There's been a lot of counter arguments made as well, but those arguments will most likely already be familiar to the English language reader. 
 
