@@ -142,9 +142,9 @@ The Miri-interview sparks outrage among the Swedish twitterati and by lunchtime 
 
 Aftonbladet, one of the two major evening papers in Sweden, publishes an [article](http://www.aftonbladet.se/debatt/article15498578.ab) by Herman Lindqvist, one of Sweden's most renowned historians. He argues sarcastically against Behrang Miri's moving "Tintin in the Congo". He says:
 
->"...why not go to the root of all evil? Out with the Bible and the Koran - there is a lot of racism and homophobia there. Out with Shakespeare, Astrid Lindgren and The Southern Seas, be gone Robinson Crusoe."
+>"...why not go to the root of all evil? Out with the Bible and the Koran - there is a lot of racism and homophobia >there. Out with Shakespeare, Astrid Lindgren and The Southern Seas, be gone Robinson Crusoe."
 >"Hurl out the bulk of world literature."
-"Yes, why not throw out all the volumes of world history too? So much colonial thinking permeates those books. Page up and page down!"
+>"Yes, why not throw out all the volumes of world history too? So much colonial thinking permeates those books. Page up >and page down!"
 
 
 <!--### 28 September 2012-->
