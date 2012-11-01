@@ -129,7 +129,7 @@ Erik Helmersson, editorial writer at Dagens Nyheter, repeats some of the argumen
 
 ### 25 September 2012
 
-Dagens Nyheter publishes a story about Behrang Miri, the artistic director at TioTretton (TenThirteen), an activity space for tweens housed at Kulturhuset (a large cultural institution) in the center of Stockholm. Behrang Miri had decided to move the collection of Tintin-comics from TioTretton to Serieteket. Serieteket is a special comics only-library within Kulturhuset. It's directed towards an adult and young adults audience.
+Dagens Nyheter publishes a story about Behrang Miri, the artistic director at TioTretton (TenThirteen), an activity space for tweens housed at Kulturhuset (a large cultural institution) in the center of Stockholm. Behrang Miri had decided to move the comic-book "Tintin in the Congo" from TioTretton to Serieteket. Serieteket is a special comics only-library within Kulturhuset. It's directed towards an adult and young adults audience.
 
 This article is given a prominent placement and accompanied by an [opinion piece](http://www.dn.se/dnbok/dnbok-hem/birgitta-rubin-utrensningen-vacker-dubbla-kanslor-hos-mig) criticizing the move.
 
@@ -138,11 +138,13 @@ The Miri-interview sparks outrage among the Swedish twitterati and by lunchtime 
 
 <!--My theory, without a lot backing it up really. Dagens Nyheter, where getting a uncomfortable with the Wirsén-discussion.   -->
 
-<!--### 25 Septemer 2012-->
+### 25 September 2012
 
-<!--Herman Lindqvist i Aftonbladet-->
+Aftonbladet, one of the two major evening papers in Sweden, publishes an [article](http://www.aftonbladet.se/debatt/article15498578.ab) by Herman Lindqvist, one of Sweden's most renowned historians. He argues sarcastically against Behrang Miri's moving "Tintin in the Congo". He says:
 
-<!--http://www.aftonbladet.se/debatt/article15498578.ab-->
+>"...why not go to the root of all evil? Out with the Bible and the Koran - there is a lot of racism and homophobia there. Out with Shakespeare, Astrid Lindgren and The Southern Seas, be gone Robinson Crusoe."
+>"Hurl out the bulk of world literature."
+"Yes, why not throw out all the volumes of world history too? So much colonial thinking permeates those books. Page up and page down!"
 
 
 <!--### 28 September 2012-->
