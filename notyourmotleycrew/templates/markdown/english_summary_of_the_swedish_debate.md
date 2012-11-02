@@ -155,11 +155,13 @@ Aftonbladet, one of the two major evening papers in Sweden, publishes an [articl
 <!--http://www.dn.se/kultur-noje/debatt-essa/tusen-nyanser-av-svart-->
 
 
-<!--### 30 September 2012-->
+### 30 September 2012
 
-<!--Björn Wiman-->
-<!--http://www.dn.se/kultur-noje/kronikor/bjorn-wiman-vad-blir-det-kvar-av-konsten-om-allt-socker-tas-bort-ur-saften-->
 
+Björn Wiman, Dagens Nyheter's culture section's editor-in-chief writes a piece in Dagens Nyheter, [commenting on the reactions](http://www.dn.se/kultur-noje/kronikor/bjorn-wiman-vad-blir-det-kvar-av-konsten-om-allt-socker-tas-bort-ur-saften) against "Tintin in the Congo" and Stina Wirsén's movie. He calls the reactions "violent", and discerns two different ways of dealing with the "conflict of ideas": 
+The first is to see the conflict as having "a value in itself, to believe that the friction in the free exchange of views slowly pushes humanity in the right direction."
+The second way is "more problematic" according to Wiman, because that way means eliminating possible causes of infraction before going public with things. Wiman says that the "practical consequenses can become grotesque".
+"The good will risks sweeping the real conflicts in society under the rug and hide the oppression that actually exists".
 
 <!--### 3 Oktober 2012-->
 
