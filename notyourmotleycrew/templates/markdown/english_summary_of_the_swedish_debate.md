@@ -176,9 +176,9 @@ The second way is "more problematic" according to Wiman, because that way means 
 <!--http://www.dn.se/kultur-noje/debatt-essa/bjorn-wiman-hellre-brak-och-debatt-i-efterhand-->
 
 
-<!--### 16 October 2012-->
+### 16 October 2012
 
-<!--Sverker Lenas-->
+In Dagens Nyheter, Sverker Lenas reiterates the argument that even though the blackface-character in Wirsén's movie is debatable, the dominance of blue-eyed blond children in children's books is a bigger problem. "After all, the movie's purpose was anti-racist", he writes. He expresses surprise that the debate got more into a frenzy over this than for example residential segregation and labour market discrimination. He points out that opinions about Wirsén's movie differs amongst "non-whites", and that the meeaning of blackface is contextual and does not automatically have the same meaning as 80 years ago when it is made "in a multi-cultural society in our time, with another intent".
 
 <!--http://www.dn.se/kultur-noje/debatt-essa/sverker-lenas-rasismen-i-samhallet-gar-inte-att-retuschera-bort-->
 
