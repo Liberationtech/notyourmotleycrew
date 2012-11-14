@@ -182,10 +182,14 @@ In Dagens Nyheter, Sverker Lenas [reiterates the argument](http://www.dn.se/kult
 
 
 
-<!--### 23 October 2012-->
+### 23 October 2012
 
-<!--Stina Wirsén -->
+Stina Wirsén writes a [short response](http://www.dn.se/kultur-noje/debatt-essa/mina-kritiker-har-begransad-utblick) to the criticism against the pickaninny character "Little Sweetheart". Now, in stark contrast to the movie's production team's previous statements in early September, Wirsén claims that the character is completely unrelated to the "golliwog" and pickaninny traditions, and that instead her inspiration comes from the "long traditions of imagary in Africa, the Caribbean and Asia".
 
-<!--http://www.dn.se/kultur-noje/debatt-essa/mina-kritiker-har-begransad-utblick-->
+>"A number of debaters have assumed the right to narrow-mindedly hammer in and spread the image of "Sweetheart" as an empty, uninformative stereotype. I consider that low and above all contraproductive.
+
+>I can see the fact that everyone have not perceived her as the strong subject that she is as a failure. Had I made her nougat brown with a little flat hair-cut, maybe the debate would not have arisen.
+
+>But those who claim that they need "Little Sweetheart"? Who see a role-model for their daughters, a re-establishment for a black character, why does their voice not count?"
 
 <!-- just testing -->
