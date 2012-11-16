@@ -15,6 +15,7 @@ from notyourmotleycrew.content.forms import SignForm
 from notyourmotleycrew.content.models import APPROVED
 from notyourmotleycrew.content.models import BANNED
 from notyourmotleycrew.content.models import NYMCImage
+from notyourmotleycrew.content.models import Post
 from notyourmotleycrew.content.models import Sign
 from notyourmotleycrew.content.models import image_file_name
 from notyourmotleycrew.settings import MEDIA_ROOT
@@ -67,6 +68,17 @@ def sign_pdf(request, **kwargs):
 def single_image(request, **kwargs):
     image = NYMCImage.objects.get(id=int(kwargs['id']))
     return render_to_response("single_image.html", {'image':image})
+
+def intervention(request, **kwargs):
+    post = Post.objects.get(slug = kwargs['slug'])
+    template = "post.html"
+    return render_to_response(template, {'post': post})
+
+def interventions(request):
+    posts = Post.objects.all().order_by("-timestamp")
+    template = "posts.html"
+    
+    return render_to_response(template, {'posts': posts})
 
 def home(request):
     template = "home.html"

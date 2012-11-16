@@ -1,7 +1,7 @@
 # Django settings for notyourmotleycrew project.
 
-DEBUG = True
-#DEBUG = False
+#DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (

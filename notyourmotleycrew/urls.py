@@ -3,6 +3,8 @@ from django.conf.urls import patterns, include, url
 from notyourmotleycrew.content.views import about
 from notyourmotleycrew.content.views import thanks 
 from notyourmotleycrew.content.views import home 
+from notyourmotleycrew.content.views import interventions
+from notyourmotleycrew.content.views import intervention
 from notyourmotleycrew.content.views import sign  
 from notyourmotleycrew.content.views import sign_pdf
 from notyourmotleycrew.content.views import thedebate
@@ -18,6 +20,8 @@ urlpatterns = patterns('',
     #url(r'^$', 'notyourmotleycrew.content.views.home', name='home'),
     url(r'^$', home, name='home'),
     url(r'^about/', about, name='about'),
+    url(r'^interventions/(?P<slug>.+)', intervention, name='intervention'),
+    url(r'^interventions/$', interventions, name='interventions'),
     url(r'^thanks/', thanks, name='thanks'),
     url(r'^timeline_data/', timeline_data, name='timelinedata'),
     url(r'^thedebate/', thedebate, name='thedebate'),

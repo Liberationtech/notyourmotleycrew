@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block fbmetadata %}
+<meta property="og:post" content="http://notyourmotleycrew.com/media/posts/120920_2129/800/TSOU2GA7U9SYOUN2487J.jpeg"/>
+<meta property="og:title" content="We are not your motley crew"/>
+<meta property="og:type" content="cause"/>
+
+<meta property="og:url" content="http://notyourmotleycrew.com"/>
+{% endblock %}
+
+{% block main %}
+
+{% include "snippets/post.html" %}
+
+<!--<div class="row-fluid">   -->
+    <!--<div class="span10 offset1">-->
+        <!--<div class="pagination">-->
+            <!--<span class="step-links">-->
+                <!--{% if posts.has_previous %}-->
+                <!--<a href="?page={{ posts.previous_page_number }}">previous</a>-->
+                <!--{% endif %}-->
+                
+                <!--<span class="current">-->
+                    <!--Page {{ posts.number }} of {{ posts.paginator.num_pages }}.-->
+                <!--</span>-->
+
+                <!--{% if posts.has_next %}-->
+                <!--<a href="?page={{ posts.next_page_number }}">next</a>-->
+                <!--{% endif %}-->
+            <!--</span>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+{% endblock %}

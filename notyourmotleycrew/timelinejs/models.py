@@ -17,7 +17,7 @@ DATE_SPECIFICITY_CHOICES = (
     (DATE_SPECIFICITY_CHOICE_MONTH, DATE_SPECIFICITY_CHOICE_MONTH),
     (DATE_SPECIFICITY_CHOICE_DAY, DATE_SPECIFICITY_CHOICE_DAY),
     (DATE_SPECIFICITY_CHOICE_HOUR, DATE_SPECIFICITY_CHOICE_HOUR),
-    (DATE_SPECIFICITY_CHOICE_MINUTE, DATE_SPECIFICITY_CHOICE_MINUTE),
+    #(DATE_SPECIFICITY_CHOICE_MINUTE, DATE_SPECIFICITY_CHOICE_MINUTE),
     #(DATE_SPECIFICITY_CHOICE_SECOND, DATE_SPECIFICITY_CHOICE_SECOND),
   )
 
@@ -78,7 +78,21 @@ class Timeline(models.Model):
 def get_oivvio():
     return User.objects.get(id=1)
 
+class Argument(models.Model):
+    title = models.CharField(max_length=100)
+    body = models.TextField()
+
+    def __unicode__(self):
+        return u"{0}".format(self.title)
+
+class Filterset(models.Model):
+    title = models.CharField(max_length=100)
+
+    def __unicode__(self):
+        return u"{0}".format(self.title)
+
 class Event(models.Model):
+
     headline = models.CharField(max_length = 300, blank=True, help_text="The headline that is to be displayed on the timeline, NOT the headline of the orignial article. In most cases you do not have to specify this as it's constructed from the AUTHOR and MEDIAOUTLET fields")
     #startdate =  models.DateTimeField()
     #startdate_specificity = models.CharField(max_length=30, choices=DATE_SPECIFICITY_CHOICES, default=DATE_SPECIFICITY_CHOICE_DAY)
@@ -102,6 +116,9 @@ class Event(models.Model):
     cleared_for_publication = models.BooleanField(default=False)
     added_by = models.ForeignKey(User, related_name="event",  null=True, blank=True, editable=False)
 
+    arguments = models.ManyToManyField(Argument, blank=True)
+    filtersets = models.ManyToManyField(Filterset, blank=True)
+    
     def get_startdate(self):
         return (self.startdate.get()).datetime
 
@@ -202,6 +219,7 @@ class TimelineStartdate(DateTimeWithSpecificity):
 
 class EventStartdate(DateTimeWithSpecificity):
     startdate = models.ForeignKey(Event, related_name="startdate")
+
 
 
 

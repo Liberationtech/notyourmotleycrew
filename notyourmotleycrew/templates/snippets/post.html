@@ -1,0 +1,9 @@
+{% load markup %}
+<div class="row-fluid">   
+    <div class="span10 offset1">
+        <h2><a href="/interventions/{{post.slug}}">{{post.title}}</a></h2>
+        
+        {{post.body|markdown }}
+    </div>
+</div>
+

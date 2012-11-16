@@ -1,1 +1,1 @@
-/bin/bash -c  "source /home/oivvio/.virtualenvs/notyourmotleycrew/bin/activate && /home/oivvio/notyourmotleycrew/manage.py dumpdata" |bzip2 -c > /home/oivvio/notyourmotleycrew_dbbackup/$(date +"%Y%m%d_%H%M").json.bz2
+/bin/bash -c  "source /home/oivvio/.virtualenvs/nymc/bin/activate && /home/oivvio/notyourmotleycrew/manage.py dumpdata" |bzip2 -c > /home/oivvio/notyourmotleycrew_dbbackup/$(date +"%Y%m%d_%H%M").json.bz2

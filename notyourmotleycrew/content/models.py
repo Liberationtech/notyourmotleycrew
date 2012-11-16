@@ -114,4 +114,8 @@ class Sign(models.Model):
     timestamp = models.DateTimeField(default=datetime.now)
     authorized = models.BooleanField(default=False)
 
-    
+class Post(models.Model):
+    title = models.CharField(max_length=200)
+    body = models.TextField()
+    timestamp = models.DateTimeField(default=datetime.now)
+    slug = models.SlugField() 
