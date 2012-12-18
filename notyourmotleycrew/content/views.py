@@ -2,7 +2,7 @@
 #import datetime
 
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-
+from notyourmotleycrew.timelinejs.forms import FilterForm
 from django.http import HttpResponse
 from django.http import HttpResponseRedirect
 from django.shortcuts import redirect
@@ -26,6 +26,10 @@ from os.path import exists
 from os.path import join
 from subprocess import PIPE
 from subprocess import Popen
+from notyourmotleycrew.timelinejs.forms import FILTER_DN
+from notyourmotleycrew.timelinejs.forms import FILTER_CENTRAL
+from notyourmotleycrew.timelinejs.forms import FILTER_EVERYTHING
+from notyourmotleycrew.timelinejs.forms import FILTER_DICT
 
 def thanks(reques):
     return render_to_response("thanks.html")
@@ -59,9 +63,7 @@ def sign_pdf(request, **kwargs):
     # Create the HttpResponse object with the appropriate PDF headers.
     response = HttpResponse(mimetype='application/pdf')
     response['Content-Disposition'] = 'attachment; filename=print_me.pdf'
-    #pdfoutput = pdf.read()
 
-    #print pdfoutput
     response.write(pdf)
     return response
 
@@ -137,24 +139,61 @@ def handle_file_upload(form, f):
     
     newimage.image = fn
     newimage.caption = form.data["caption"]
-    print form.data["email"]
     newimage.email = form.data["email"]
     newimage.save()
 
     #import pdb; pdb.set_trace() 
 
-def timeline_data(request):
-
+def timeline_data(request, **kwargs):
+    
     timeline = Timeline.objects.all()[0]
-    json = timeline.get_json()
+
+
+    if 'filterset' in kwargs:
+        json = timeline.get_json_filterset(kwargs['filterset'])
+
+    else:
+        #XXX DRY this up 
+        json = timeline.get_json_filterset('dn')
+        #json = timeline.get_json()
+
+    if 'id' in kwargs:
+        print "in here " * 10
+        json = timeline.get_json_id(int(kwargs['id']))
+
     return HttpResponse(json, mimetype='application/json')
 
 def get_md(templatename):
     template = get_template(templatename)
     return template.render(Context())
 
-def thedebate(request):
-    return render_to_response('thedebate.html', {})
+def thedebate(request, **kwargs):
+
+
+    if request.method == 'POST':
+        filterform = FilterForm(request.POST)
+        filterform.is_valid()
+
+        #extract current filter from form
+        filter = filterform.cleaned_data['filter']
+    
+        #set set initial filter on new form
+        initial = {'filter': FILTER_DICT[filter][0]}
+        #get the form 
+        filterform = FilterForm(initial = initial)
+        #render the page
+        return render_to_response('thedebate_filterset.html', {'form': filterform, 'filter':filter }, context_instance=RequestContext(request))
+
+    else:
+        #THE default filterset right now
+        filter_key = FILTER_DN[0]
+
+        filterform = FilterForm(initial={'filter' : filter_key})
+
+        if 'id' in kwargs:
+            return render_to_response('thedebate_filtered_id.html', {'form':filterform, 'pk':kwargs['id']}, context_instance=RequestContext(request) )
+        else:
+            return render_to_response('thedebate.html', {'form': filterform}, context_instance=RequestContext(request))
 
 def english_summary_of_the_swedish_debate(request):
     #instead of getting the md ourselves let's have django do it

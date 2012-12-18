@@ -1,8 +1,12 @@
 # -*- coding: utf-8 -*-
-from django.db import models
-import markdown
-import json
 from django.contrib.auth.models import User
+from django.db import models
+import datetime
+import json
+import markdown
+import string
+from pyquery import PyQuery
+
 
 DATE_SPECIFICITY_CHOICE_YEAR = "YEAR"
 DATE_SPECIFICITY_CHOICE_MONTH = "MONTH"
@@ -23,6 +27,11 @@ DATE_SPECIFICITY_CHOICES = (
 
 # Create your models here.
 
+
+
+def escape_chars(text):
+    return text.replace('"', "''")
+
 def escape_text(text):
     text = text.replace('"', "''")
     return json.dumps(markdown.markdown(text))
@@ -39,11 +48,19 @@ class Timeline(models.Model):
     def __unicode__(self):
         return u"{0}".format(self.headline)
 
-    def get_json(self):
+
+
+    
+    def get_json_id(self,  pk):
+        #pk = int(kwargs['id'])
+        qs = self.event.filter(id=pk)
+        return self.get_json_qs(qs)
+
+    def get_json_qs(self, qs):
 
         datestr = self.startdate.all()[0].json_dumps()
         eventsjson = []
-        for event in self.event.filter(cleared_for_publication=True):
+        for event in qs:
             eventsjson.append(event.get_json())
         eventsjsonstr = u",\n".join(eventsjson)
 
@@ -75,6 +92,14 @@ class Timeline(models.Model):
                   dates=eventsjsonstr)
         return result
 
+    def get_json_filterset(self, filterset):
+        qs = self.event.filter(cleared_for_publication=True, filtersets__title=filterset)
+        return self.get_json_qs(qs)
+
+    def get_json(self):
+        qs = self.event.filter(cleared_for_publication=True, filter_central=True)
+        return self.get_json_qs(qs)
+
 def get_oivvio():
     return User.objects.get(id=1)
 
@@ -91,37 +116,130 @@ class Filterset(models.Model):
     def __unicode__(self):
         return u"{0}".format(self.title)
 
+class Outlet(models.Model):
+    name = models.CharField(max_length=100)
+    
+    selector_headline = models.CharField(max_length=200, null=True, blank=True)
+    selector_body = models.CharField(max_length=200, null=True, blank=True)
+    selector_byline = models.CharField(max_length=200, null=True, blank=True)
+
+    #outlet = models.ForeignKey(Event, related_name="outlet")
+    def __unicode__(self):
+        return self.name
+
 class Event(models.Model):
+
+    filter_central = models.BooleanField(default=False, help_text="This event is central to the discussion")
+    blockquote = models.TextField(blank=True)
+
+    url = models.URLField(blank=True, help_text="Most events should have one")
+    media_outlet = models.CharField(max_length = 100, blank=True, help_text="Try to make sure that you use the same spelling and capitalization as previous events in the same outlet")
+    author = models.CharField(max_length = 100, blank=True)
+
+    filtersets = models.ManyToManyField(Filterset, blank=True)
+    timeline = models.ForeignKey(Timeline, related_name="event") 
+    outlet = models.ForeignKey(Outlet, related_name="outlet", null=True) 
+    cleared_for_publication = models.BooleanField(default=False)
 
     headline = models.CharField(max_length = 300, blank=True, help_text="The headline that is to be displayed on the timeline, NOT the headline of the orignial article. In most cases you do not have to specify this as it's constructed from the AUTHOR and MEDIAOUTLET fields")
     #startdate =  models.DateTimeField()
     #startdate_specificity = models.CharField(max_length=30, choices=DATE_SPECIFICITY_CHOICES, default=DATE_SPECIFICITY_CHOICE_DAY)
     text = models.TextField(blank=True)
     
-    blockquote = models.TextField(blank=True)
    
     media = models.URLField(blank=True)
     image = models.ImageField(upload_to="images/timeline/", null=True, blank=True )
     caption = models.CharField(max_length = 400, blank=True, help_text="If you've added an image the caption goes here")
     credit = models.CharField(max_length = 400, blank=True, help_text="If you've added an image the credit for the image goes here") 
 
-    url = models.URLField(blank=True, help_text="Most events should have one")
-    media_outlet = models.CharField(max_length = 100, blank=True, help_text="Try to make sure that you use the same spelling and capitalization as previous events in the same outlet")
-    author = models.CharField(max_length = 100, blank=True)
         
     
-    timeline = models.ForeignKey(Timeline, related_name="event")
-    
+   
+    startdate_copy = models.DateTimeField(editable=False, default=datetime.datetime.now)
+
+
+
     facebook_total_count = models.IntegerField(default=-1,editable=False)
-    cleared_for_publication = models.BooleanField(default=False)
+
     added_by = models.ForeignKey(User, related_name="event",  null=True, blank=True, editable=False)
 
     arguments = models.ManyToManyField(Argument, blank=True)
-    filtersets = models.ManyToManyField(Filterset, blank=True)
     
+    html_raw = models.TextField(null=True, blank=True)
+    text_headline = models.TextField(null=True, blank=True)
+    text_body = models.TextField(null=True, blank=True)
+    text_byline  = models.TextField(null=True, blank=True)
+
+
+    
+    def populate_text_helper(self, selector, targetattr):
+        jQuery = PyQuery(self.html_raw)
+        text = jQuery(selector.encode("ascii")).text()
+
+        #print self.html_raw[:100]
+        print "-"*100
+        try:
+            print text[:100]
+        except:
+            pass
+        setattr(self, targetattr, text)
+        self.save()
+
+    def populate_text_headline(self):
+        self.populate_text_helper(self.outlet.selector_headline, "text_headline")
+
+    def populate_text_body(self):
+        self.populate_text_helper(self.outlet.selector_body, "text_body")
+
+
+    def populate_text_byline(self):
+        self.populate_text_helper(self.outlet.selector_byline, "text_byline")
+   
+    def populate_text(self):
+        if self.html_raw != None:
+            if self.outlet != None:
+                print "="*100
+                if self.outlet.selector_body != None:
+                    self.populate_text_body()
+
+                if self.outlet.selector_headline != None:
+                    self.populate_text_headline()
+
+                if self.outlet.selector_byline != None:
+                    self.populate_text_byline()
+
+    def filterset_repr(self):
+        return string.join([item.title for item in self.filtersets.all() if item.title != "everything"], ", ")
+
+    def url_repr(self):
+        if self.url != "":
+            return "<a href='{0}'>link</a>".format(self.url)
+        else:
+            return ""
+
+    url_repr.allow_tags = True
+
+    def live_view(self):
+        return "<a href='/thedebate/filtered/id/{0}/'>live</a>".format(self.pk)
+
+    live_view.allow_tags = True
+
+    def save(self, *args, **kwargs):
+        try:
+            self.startdate_copy = self.get_startdate()
+        except:
+            pass
+
+        super(Event, self).save(*args, **kwargs)
+
     def get_startdate(self):
         return (self.startdate.get()).datetime
 
+    def url_truncated(self, length=100):
+        #if len(url) > length:
+            #start = url
+        return self.url[:40]
+    
     def get_headline(self):
         if self.headline:
             return self.headline
@@ -137,11 +255,10 @@ class Event(models.Model):
     
     def get_json(self):
         
-        
         if self.image:
             media = self.image.url
         elif self.blockquote:
-            media = u"<blockquote>{0}</blockquote>".format(self.blockquote)
+            media = u"<blockquote>{0}</blockquote>".format(escape_chars(self.blockquote))
         else:
             media = self.media
         
@@ -156,7 +273,7 @@ class Event(models.Model):
             fbcount = ""
 
         if self.url:
-            text += u"<p><a href='{0}'>länk</a><p> {1} <p><a href='{2}'>google translate</a></p>".format(self.url, fbcount, translateurl)
+            text += u"<p><a href='{0}'>länk</a>".format(self.url)
 
         #if request.user.is_staff():
             #text += "<p>edit</p>"
@@ -219,8 +336,4 @@ class TimelineStartdate(DateTimeWithSpecificity):
 
 class EventStartdate(DateTimeWithSpecificity):
     startdate = models.ForeignKey(Event, related_name="startdate")
-
-
-
-
 
