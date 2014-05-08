@@ -5,3 +5,7 @@ django-bootstrap-toolkit==2.5.6
 PIL
 markdown
 facebook-sdk
+gunicorn
+django-extensions
+django-concurrent-server
+pyquery

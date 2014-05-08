@@ -186,7 +186,7 @@ def thedebate(request, **kwargs):
 
     else:
         #THE default filterset right now
-        filter_key = FILTER_DN[0]
+        filter_key = FILTER_CENTRAL[0]
 
         filterform = FilterForm(initial={'filter' : filter_key})
 
